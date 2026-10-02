@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="Studio DAG — fotografia, design e propaganda, identidade visual.">
+<title>Studio DAG</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<!-- PRÉ-SITE -->
+<section id="intro" aria-label="Introdução">
+  <!-- VÍDEO DE FUNDO: arquivo videofundo.mp4 na mesma pasta (ou troque o caminho) -->
+  <video id="bgvideo" autoplay muted loop playsinline preload="auto">
+    <source src="1001.mp4" type="video/mp4">
+  </video>
+  <div class="veil"></div>
+  <div class="scene" id="s1">SEJA BEM-VINDO</div>
+  <div class="scene" id="s2">AO STUDIO</div>
+  <div class="scene" id="s3">
+    <!-- LOGO: arquivo PNG_BRANCO.png (ou troque o caminho em src) -->
+    <img class="logo-img" src="PNG_BRANCO.png" alt="Studio DAG" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+    <div class="logo" hidden>+dag<small>STUDIO</small></div>
+  </div>
+  <button id="hint" tabindex="-1">Toque ou deslize para entrar<span>↓</span></button>
+</section>
+
+<main id="site">
+  <div class="quote"><b>“</b><span>FLYING THROUGH<br>YOUR DREAMS</span><b>”</b></div>
+
+  <section class="profile">
+    <div class="avatar" id="avatar" role="img" aria-label="Davi Gabriel"></div>
+    <div class="role">CEO - FUNDADOR<span>Davi Gabriel</span></div>
+    <p class="bio">Todo sonho começa como uma imagem na cabeça. No Studio DAG, a gente pega essa imagem e a faz voar: com lente, com traço e com estratégia. Cada projeto nasce de uma conversa, ganha corpo com criatividade e chega até você com significado e propósito.<i>Voando em seus sonhos.</i></p>
+    <div class="spec">
+      <h2>NOSSAS<br>ESPECIALIDADES</h2>
+      <p class="tip">Toque num ícone e conheça cada uma.</p>
+      <div class="icons" role="group" aria-label="Especialidades">
+        <button class="ico" data-k="foto" aria-label="Fotografia" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg></button>
+        <button class="ico d" data-k="design" aria-label="Design e propaganda" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.4 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg></button>
+        <button class="ico i" data-k="ident" aria-label="Identidade visual" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="7" height="7" rx="1"/><circle cx="16.5" cy="7.5" r="3.5"/><path d="M4 20l3.5-7 3.5 7zM14 14h6v6h-6z"/></svg></button>
+      </div>
+      <button class="pill" id="pill">FOTOGRAFIA</button>
+    </div>
+  </section>
+
+  <section class="works">
+    <h2>TRABALHOS</h2><p class="lead">Um pouco do que já colocamos no ar.</p>
+
+    <div class="cat">
+      <h4>FOTOGRAFIA</h4>
+      <p class="cap">Registros de grandes momentos.</p>
+      <div class="car" data-k="foto">
+        <img src="FOTOGRAFIA/IGRJA.png" alt="Fotografia 1">
+        <img src="FOTOGRAFIA/ALAN.JPG" alt="Fotografia 2">
+        <img src="FOTOGRAFIA/GREEN.png" alt="Fotografia 3">
+        <img src="FOTOGRAFIA/JACSON.JPG" alt="Fotografia 4">
+        <img src="FOTOGRAFIA/PRNN.JPG" alt="Fotografia 5">
+      </div>
+      <button class="glass">VEJA MAIS</button>
+    </div>
+
+    <div class="cat">
+      <h4>DESIGN E PROPAGANDA</h4>
+      <p class="cap">Peças que param o dedo no feed.</p>
+      <div class="car" data-k="design">
+        <img src="DESIGN E PROPAGANDA/batão_eudora-glass effect.png" alt="Design e propaganda 1">
+        <img src="DESIGN E PROPAGANDA/ChatGPT Image 23 de abr. de 2026, 13_47_42.png" alt="Design e propaganda 2">
+        <img src="DESIGN E PROPAGANDA/close-up-plan-9x16- 01.png" alt="Design e propaganda 3">
+        <img src="DESIGN E PROPAGANDA/desafio 3-lucas rosa.jpg" alt="Design e propaganda 4">
+        <img src="DESIGN E PROPAGANDA/mediun-plan-9x16- 01.png" alt="Design e propaganda 5">
+      </div>
+      <button class="glass">VEJA MAIS</button>
+    </div>
+
+    <div class="cat">
+      <h4>IDENTIDADE VISUAL</h4>
+      <p class="cap">Marcas que são lembradas.</p>
+      <div class="car" data-k="ident">
+        <img src="IDV/post---1---APRESENTAÇÃO_01.png" alt="Identidade visual 1">
+        <img src="IDV/post---1---paleta-de-cores_01.png" alt="Identidade visual 2">
+        <img src="IDV/post_02.png" alt="Identidade visual 3">
+        <img src="IDV/post---1---APRESENTAÇÃO_02.png" alt="Identidade visual 4">
+        <img src="IDV/post---2---aplicações_01.png" alt="Identidade visual 5">
+      </div>
+      <button class="glass">VEJA MAIS</button>
+    </div>
+  </section>
+s
+  <div class="cta"><h2>Qual é a sua ideia?<br>Vamos fazê-la voar.</h2><p>Conte pra gente e receba uma proposta sem compromisso.</p></div>
+  <footer><a href="https://wa.me/551194799042?text=Eu%20gostaria%20de%20conhecer%20o%20Studio%20DAG" target="_blank" rel="noopener">FALE CONOSCO</a></footer>
+</main>
+
+<div id="modal" role="dialog" aria-modal="true" aria-labelledby="mt">
+  <div class="sheet"><h3 id="mt"></h3><p id="mp"></p><ul id="ml"></ul><button class="glass" id="close">FECHAR</button></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
